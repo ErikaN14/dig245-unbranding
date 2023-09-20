@@ -14,19 +14,19 @@
     <h1>DIG 245 Unbrand</h1>
 
     <header>
-        <img class="logo" src="assets/img/RedBullAd.png">
+        <img class="brand" src="assets/img/RedBullAd.png">
     </header>
 
 
     <script>
-        src="assets/js/main.js"
+        //src="assets/js/main.js"
 
-        let logo = document.querySelector(".logo");
+        let brand = document.querySelector(".brand");
        // let main = document.querySelector("main");
 
         logo.addEventListener("mouseover", function () {
             this.src = "assets/img/EditedRedBullAd.png";
-            this.style.cursor = "not-allowed"
+            this.style.cursor = "pointer"
             //main.style.transition = '1s';
             //main.style.opacity = 1;
         });
@@ -37,7 +37,8 @@
             //main.style.transition = '10s';
             //main.style.opacity = 0;
         });
-    
+
+        console.log("Add description here");    
     </script>
 
 </body>
