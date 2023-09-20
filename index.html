@@ -24,21 +24,24 @@
         let brand = document.querySelector(".brand");
        // let main = document.querySelector("main");
 
-        logo.addEventListener("mouseover", function () {
+        brand.addEventListener("mouseover", function () {
             this.src = "assets/img/EditedRedBullAd.png";
-            this.style.cursor = "pointer"
+            this.style.cursor = "not-allowed"
             //main.style.transition = '1s';
             //main.style.opacity = 1;
         });
 
-        logo.addEventListener("mouseout", function () {
+        brand.addEventListener("mouseout", function () {
             this.src = "assets/img/RedBullAd.png";
             this.style.cursor = "pointer"
             //main.style.transition = '10s';
             //main.style.opacity = 0;
         });
 
-        console.log("Add description here");    
+        const obj = "HI";
+        console.log(obj);
+        obj.prop = 123;
+    
     </script>
 
 </body>
