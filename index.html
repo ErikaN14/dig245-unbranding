@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <!-- meta tags, links to css, etc. -->
     <meta charset="utf-8">
     <title>DIG 245 Unbrand</title>
@@ -9,6 +10,7 @@
 </head>
 
 <body>
+    
     <!-- visible content goes here -->
 
     <h1>DIG 245 Unbrand</h1>
@@ -16,16 +18,18 @@
 
 
     <header>
+
         <img class="brand" src="assets/img/RedBullAd.png">
+
     </header>
     <script>
-        //src="assets/js/main.js"
 
+        //Hover component 
         let brand = document.querySelector(".brand");
 
         brand.addEventListener("mouseover", function () {
             this.src = "assets/img/EditedRedBullAd.png";
-            this.style.cursor = "not-allowed"
+            this.style.cursor = "pointer"
         });
 
         brand.addEventListener("mouseout", function () {
@@ -33,7 +37,7 @@
             this.style.cursor = "pointer"
         });
 
-        const describe = "The inspiration for this assignment came from research that I had done on the impact that caffeine has on a person. In my website I linked a page that takes you directly to the article that I am referencing. Although it does not say specifically that red bull leads to heart issues, it suggests that large and frequent intakes of caffeine can lead to heart issues. As a resul, for my transition I changed the original slogan for red bull as well as took the red bull can out and replaced it with heart pills. I hope to use this assignment as a way to emphasize the impact that large amounts of caffine intake can have on a person over time.";
+        const describe = "The inspiration for this assignment came from doing some research on the impact that caffeine has on a person. In my website I linked a page that takes you directly to the article that I am referencing. Although it does not say specifically that red bull leads to heart issues, it suggests that large and frequent intakes of caffeine can lead to heart issues like arythmias or high blood pressure. As a result, for my transition I changed the original slogan for red bull as well as took the red bull can out and replaced it with heart pills. I hope to use this assignment as a way to emphasize the impact that large amounts of caffeine intake can have on a person over time.";
         console.log(describe);
     
     </script>
