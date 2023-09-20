@@ -1,29 +1,5 @@
 /* css */
 
-.originalRedBullAd{
-    /* add image of ad here */
-    /*<img src="" alt="A black, brown, and white dog wearing a kerchief">*/
+.logo{
+    position:relative;
 }
-
-.redBullLogo{
-    /* add image of logo alone here (for edited ad) */
-}
-
-.editedLogo{
-    /* add new slogan here (for edited ad) */
-    /*inline-size: 200px;
-    overflow-wrap: break-word;
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
-    position: absolute;
-    left: 500px;
-    top: 350px; */
-    
-
-
-
-}
-
-/* .pillBottle{
-    /* add image of pill bottle here (for edited ad) 
-    
-} */
